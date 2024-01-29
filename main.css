@@ -1,0 +1,126 @@
+
+
+/* .card{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    overflow:auto;
+    padding: 10px;
+} */
+/* img{
+   width: 100%; 
+} */
+
+.contenier{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+}
+
+.card{
+    width: 23%;
+    height: 100px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.card:nth-child(1){
+    cursor: auto;
+}
+.card:nth-child(2){
+    cursor:default;
+}
+.card:nth-child(3){
+    cursor:none;
+}
+.card:nth-child(4){
+    cursor:context-menu;
+}
+.card:nth-child(5){
+    cursor:help ;
+}
+.card:nth-child(6){
+    cursor: pointer;
+}
+.card:nth-child(7){
+    cursor:progress ;
+}
+.card:nth-child(8){
+    cursor:wait ;
+}
+.card:nth-child(9){
+    cursor:cell ;
+}
+.card:nth-child(10){
+    cursor:crosshair ;
+}
+.card:nth-child(11){
+    cursor:text ;
+}
+.card:nth-child(12){
+    cursor:vertical-text;
+}
+.card:nth-child(13){
+    cursor: alias;
+}
+.card:nth-child(14){
+    cursor:copy ;
+}
+.card:nth-child(15){
+    cursor:move ;
+}
+.card:nth-child(16){
+    cursor:no-drop ;
+}
+.card:nth-child(17){
+    cursor:not-allowed;
+}
+.card:nth-child(18){
+    cursor:all-scroll ;
+}
+.card:nth-child(19){
+    cursor: col-resize;
+}
+.card:nth-child(20){
+    cursor:row-resize;
+}
+.card:nth-child(21){
+    cursor:n-resize ;
+}
+.card:nth-child(22){
+    cursor:s-resize;
+}
+.card:nth-child(23){
+    cursor:e-resize ;
+}
+.card:nth-child(24){
+    cursor:w-resize ;
+}
+.card:nth-child(25){
+    cursor:ns-resize;
+}
+.card:nth-child(26){
+    cursor:ew-resize ;
+}
+.card:nth-child(27){
+    cursor:ne-resize ;
+}
+.card:nth-child(28){
+    cursor:nw-resize ;
+}
+.card:nth-child(29){
+    cursor:se-resize;
+}
+.card:nth-child(30){
+    cursor:sw-resize;
+}
+.card:nth-child(31){
+    cursor:nesw-resize;
+}
+.card:nth-child(32){
+    cursor:nwse-resize;
+}
